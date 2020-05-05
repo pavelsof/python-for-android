@@ -109,4 +109,5 @@ dependencies {
     compile '{{ depend }}'
     {%- endfor %}
     {%- endif %}
+    compile 'com.android.support:support-core-utils:28.0.0'
 }
